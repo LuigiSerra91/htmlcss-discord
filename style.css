@@ -157,6 +157,7 @@ h4{
 .button_head{
     color: #23272a;
     background-color: white;
+    border-color: white;
 
 
 }
@@ -167,11 +168,14 @@ button{
     padding-top: 5px;
     padding-left: 7px;
     padding-right: 7px;
+
 }
 
 .bt_mac{
     background-color: white;
     color: #23272a;
+    border-color: white;
+    
 }
 
 .bt_discord{
@@ -186,6 +190,7 @@ button{
 .button_sect4{
     background-color: #8ea1e1;
     color: white;
+    border-color: #8ea1e1;
 }
 
 /* end_button */ 
