@@ -6,6 +6,13 @@
 }
 
 
+.root{
+    --dis--back-color:#f6f6f6;
+    --dis--back_footer-color: #23272a;
+    --dis--button3-color: #8ea1e1;
+    --dis--button_main-color: #23272a;
+}
+
 /* debug */
 .debug *{
     border: 1px dashed;
