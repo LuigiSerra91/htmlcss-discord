@@ -5,6 +5,14 @@
     
 }
 
+.root{
+    --dis--back-color:#f6f6f6;
+    --dis--back_footer-color: #23272a;
+    --dis--button3-color: #8ea1e1;
+    --dis--button_main-color: #23272a;
+    --dis--back_header-color: #3161e0;
+}
+
 body{
     font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
@@ -13,6 +21,7 @@ img{
     max-width: 100%;
 }
 
+/* flex_container */
 .container{
     margin: auto;
     display: flex;
@@ -53,10 +62,6 @@ img{
     
 }
 
-#back_sect2{
-    background-color: rgb(235, 235, 235);
-}
-
 .flexmain_2{
     display: flex;
     justify-content: center;
@@ -78,9 +83,6 @@ img{
     padding-right: 15%;
 }
 
-
-
-
 .flexmain4{
     display: flex;
     align-items: center;
@@ -89,6 +91,24 @@ img{
     background-color: rgb(235, 235, 235);
     padding-top: 70px;
     padding-bottom: 70px;
+}
+
+/* end_containerflex */
+
+#back_sect2{
+    background-color: rgb(235, 235, 235);
+}
+
+/* h1_h2_h3_h4 */
+
+h1{
+    padding-bottom: 2rem;
+}
+
+h3{
+    background-image: url(./img/stars.svg);
+    background-size: cover;
+    padding-bottom: 10px;
 }
 
 .h2_article{
@@ -107,42 +127,36 @@ h4{
     padding-bottom: 10px;
 }
 
+/* end_h1_h2_h3_h4 */
 
-
-.root{
-    --dis--back-color:#f6f6f6;
-    --dis--back_footer-color: #23272a;
-    --dis--button3-color: #8ea1e1;
-    --dis--button_main-color: #23272a;
-    --dis--back_header-color: #3161e0;
-}
+/* utility */
 
 .app_header{
     background-color: #3161e0;
 }
 
+.app_footer{
+    background-color: #23272a;
+    height: 400px;
+}
 
+.end_footer{
+    padding-top: 15px;
+    justify-content: space-around;
+}
 
 .text_head{
     color: white;
 }
 
+/* end_utility */
+
+/* button */
 .button_head{
     color: #23272a;
     background-color: white;
 
 
-}
-
-
-h1{
-    padding-bottom: 2rem;
-}
-
-h3{
-    background-image: url(./img/stars.svg);
-    background-size: cover;
-    padding-bottom: 10px;
 }
 
 button{
@@ -167,22 +181,16 @@ button{
     padding-top: 2rem;
 }
 
-article{
-    padding-top: 1rem;
-}
-
 .button_sect4{
     background-color: #8ea1e1;
     color: white;
-
-
 }
 
-.app_footer{
-    background-color: #23272a;
-    height: 400px;
-}
+/* end_button */ 
 
+article{
+    padding-top: 1rem;
+}
 
 .ita{
     height: 10px;
@@ -194,6 +202,8 @@ article{
     height: 200px;
 }
 
+
+/* table */
 .col{
     width: calc ((100% / 12) * 5 );
 }
@@ -209,6 +219,7 @@ td{
     padding-top: 5px;
     padding-bottom: 5px;
 }
+/* end_table */
 
 hr{
     border-color: white;
@@ -220,7 +231,3 @@ hr{
     
 }
 
-.end_footer{
-    padding-top: 15px;
-    justify-content: space-around;
-}
