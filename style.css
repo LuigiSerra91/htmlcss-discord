@@ -40,6 +40,8 @@ img{
     display: flex;
     justify-content: space-around;
     padding-top: 60px;
+    padding-left: 200px;
+    padding-right: 200px;
 }
 
 
@@ -199,6 +201,7 @@ article{
 th{
     color: #8ea1e1;
     
+    
 }
 
 td{
@@ -211,6 +214,10 @@ hr{
     border-color: white;
     border: 1px solid white;
     margin-top: 15px;
+    
+    margin-left: 250px;
+    margin-right: 250px;
+    
 }
 
 .end_footer{
