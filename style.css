@@ -5,23 +5,50 @@
     border: 1px dashed ;
 }
 
-img {
+body{
+    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+img{
     max-width: 100%;
 }
 
 .container{
-    width: 80%;
     margin: auto;
     display: flex;
     
 }
+
+.flexmain{
+    
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    background-image: url(./img/jumbo.png);
+    align-items: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    height: 500px;
+    background-size: cover;
+    
+    
+}
+
 
 .dflex{
     justify-content: space-around;
     display: flex;
     align-items: center;
     
+    
 }
+
+.flexmain_2{
+    justify-content: center;
+    display: flex;
+}
+
+
 
 .root{
     --dis--back-color:#f6f6f6;
@@ -35,6 +62,8 @@ img {
     background-color: #3161e0;
 }
 
+
+
 .text_head{
     color: white;
 }
@@ -42,10 +71,33 @@ img {
 .button_head{
     color: #23272a;
     background-color: white;
+
+
+}
+
+
+h1{
+    padding-bottom: 2rem;
+}
+
+button{
     border-radius: 10px;
     padding-bottom: 5px;
     padding-top: 5px;
     padding-left: 7px;
     padding-right: 7px;
+}
 
+.bt_mac{
+    background-color: white;
+    color: #23272a;
+}
+
+.bt_discord{
+    background-color: #23272a;
+    color: white;
+}
+
+.button_main{
+    padding-top: 2rem;
 }
