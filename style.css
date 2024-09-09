@@ -91,6 +91,7 @@ img{
     background-color: rgb(235, 235, 235);
     padding-top: 70px;
     padding-bottom: 70px;
+    
 }
 
 /* end_containerflex */
@@ -106,7 +107,7 @@ h1{
 }
 
 h3{
-    background-image: url(./img/stars.svg);
+    
     background-size: cover;
     padding-bottom: 10px;
 }
@@ -143,6 +144,7 @@ h4{
 .end_footer{
     padding-top: 15px;
     justify-content: space-around;
+    
 }
 
 .text_head{
@@ -198,10 +200,13 @@ article{
 }
 
 .language_sect{
-    width: 200px;
-    height: 200px;
+    width: 200px;    
 }
 
+
+.icons{
+    padding-top: 15px;
+}
 
 /* table */
 .col{
@@ -210,14 +215,11 @@ article{
 
 th{
     color: #8ea1e1;
-    
-    
 }
 
 td{
     color: white;
     padding-top: 5px;
-    padding-bottom: 5px;
 }
 /* end_table */
 
@@ -228,6 +230,5 @@ hr{
     
     margin-left: 250px;
     margin-right: 250px;
-    
 }
 
