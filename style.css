@@ -58,6 +58,8 @@ img{
     justify-content: space-around;
     display: flex;
     align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
     
     
 }
@@ -134,6 +136,8 @@ h4{
 
 .app_header{
     background-color: #3161e0;
+    height: 70px;
+    
 }
 
 .app_footer{
